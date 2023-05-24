@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Display-flux</title>
+	<style type="text/css">
+		.p1{
+			display: flex;
+			justify-content:space-evenly;
+			align-items: flex-center;
+			flex-direction: column-reverse ; /*with align items with respect to child div size to parent div size*/
+			height:500px;
+/*			width: 100%;*/
+/*			border: 2px solid black;*/
+		}
+		.c1{
+			height: 100px;
+			width: 200px;
+			background-color: red;
+			
+		}
+		.c1:hover{
+			background-color:skyblue;
+		}
+		.p2{
+			width: 100%;
+			border: 2px solid black;
+			display: flex;
+			justify-content:flex-end;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="p2">
+		<div class="p1">
+		<div class="c1">1</div>
+		<div class="c1">2</div>
+		<div class="c1">3</div>
+		<div class="c1">4</div>
+	</div>
+	</div>
+	
+</body>
+</html>

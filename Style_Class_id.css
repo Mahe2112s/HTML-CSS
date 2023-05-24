@@ -1,0 +1,23 @@
+*{
+	background: linen;
+	font-family: "Lucida Console","Courier New",monospace;
+}
+.AIML{
+			color: green;
+		}
+		#ROLL{
+			background: yellow;
+			padding: 30px;
+		}
+		#ACOE
+		{
+			font-size: 30px;
+		}
+		#AEC{
+			background-color: red;
+
+		}
+		.Course{
+			background: lavender;
+			padding: 20px;
+		}

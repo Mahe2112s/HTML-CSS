@@ -1,0 +1,78 @@
+html{
+	min-height: 50%;
+}
+body{
+/*	background-color: dimgrey;*/
+	background-image: url('../../Images/b.jpg');
+}
+#d0{
+	background-image: url('../../Images/i11.jpg');
+	height: 100px;
+	width: 100%;
+	border: 1px solid blueviolet;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ol{
+	margin-left: 700px;
+	margin-top: 30px;
+}
+li{
+	float: left;
+	margin-left:20px;
+	font-size: 20px;
+
+}
+#d1{
+	height: 500px;
+	width: 100%;
+	border: 2px solid black;
+	margin-top: 10px;
+	background-color: white;
+}
+#file{
+	margin-top: 60px;
+	margin-left:10px;
+}
+#skills{
+	margin-left: 100px;
+	box-shadow: 4px 4px 10px deepskyblue;
+	position: absolute;
+	margin-top: 50px;
+}
+#d2{
+	height: 600px;
+	width: 100%;
+	border: 2px solid black;
+	margin-top: 10px;
+	background-color: whitesmoke;
+}
+#d3{
+	height: 500px;
+	width: 100%;
+	border: 2px solid black;
+	margin-top: 10px;
+	background-color: white;
+}
+#d4{
+	height: 500px;
+	width: 100%;
+	border: 2px solid black;
+	margin-top: 10px;
+	background-color: white;
+}
+#d5{
+	height: 500px;
+	width: 100%;
+	border: 2px solid black;
+	margin-top: 10px;
+	background-color: white;
+}
+#d6{
+	height: 500px;
+	width: 100%;
+	border: 2px solid black;
+	margin-top: 10px;
+	background-color:white ;
+}
+

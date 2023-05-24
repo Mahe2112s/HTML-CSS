@@ -1,0 +1,56 @@
+html{
+	min-height: 100%;
+}
+body{
+	background-image: url('../../Images/W.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#Div{
+	height: 1000px;
+	width: 1600px;
+	border: solid red;
+	margin: 50px;
+}
+#Image{
+	height: 120px;
+	padding-top:30px;
+	padding-right: 1200px;
+}
+#logout{
+	height: 100px;
+	width: 160px;
+	background-color: linen;
+	margin-left:1200px;
+	border-radius: 10px;
+	text-align: center;
+
+}
+.T1{
+	height: 150px;
+	width: 1600px;
+	background-color: white;
+	border: solid black;
+}
+#T2{
+	height: 700px;
+	width: 1600px;
+	background-color: blue;
+}
+#T3{
+	height: 150px;
+	width: 1600px;
+	background-color: rosybrown;
+}
+.T2_D1{
+	font-family: Georgia, serif;
+	font-size: 30px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	background-color: white;
+}
+div.T2_D1:hover{
+	color: white;
+}

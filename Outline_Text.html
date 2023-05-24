@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS PROPERTIES</title>
+	<style type="text/css">
+		.outline1{
+			border: 1px solid red;
+			/*outline-width: thick;
+			outline-style: solid;
+			outline-color: green;*/
+			outline:5px groove blue;
+		}
+		.tt{
+			/*text-transform: uppercase;*/
+			/*text-transform: lowercase;*/
+			text-transform: capitalize;
+		}
+		.ts{
+			text-shadow: 3px /*Horizontal*/ 3px /*Vertical */red;
+			/*text-shadow: 2px 2px 5px red;*/
+		}
+		.in{
+			border: 1px solid red;
+			display: block;/*CSS PROPERTY FOR BLOCK LEVEL*/
+		}
+		.bl{
+			border: 1px solid blue;
+			display: inline;/*CSS PROPERTY FOR INLINE */
+		}
+		li{
+			display: inline;
+		}
+		body{
+			font-family: "Lucida Console", "Courier New", monospace;
+		}
+		.tt1{
+			display: none;
+		}
+		.ts1{
+			visibility: hidden;
+		}
+		.bs{
+			height: 100px;
+			width: 150px;
+			border: 1px solid red;
+			box-shadow: 4px 4px 10px violet,8PX 8PX  black,14px 14px  red;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h1 class="outline1">Outline</h1>
+	</div>
+	<div>
+		<p class="tt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+	</div>
+	<div>
+		<h1 class="ts1">Text Shadow</h1>
+	</div>
+	<div>
+		<h1 class="ts">Text Shadow</h1>
+	</div>
+	<div>
+		<!-- Display--Inline,Block LEVEL -->
+		<!-- INLINE -->
+		<span class="in">Inline</span>
+		<span class="in">Inline elements</span>
+		<!-- BLOCK LINE ELEMENTS -->
+		<p class="bl">block level elements</p>
+		<p class="bl">block level</p>
+	</div>
+	<ul>
+		<li>ABC</li>
+		<li>DEF</li>
+		<li>GHI</li>
+	</ul>
+	<div>
+		<p class="tt1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+	</div>
+	<div class="bs">
+		<!-- BOX SHADOW -->
+	</div>
+</body>
+</html>

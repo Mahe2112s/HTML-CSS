@@ -1,0 +1,27 @@
+/**{
+	background-color: linen;
+}*/
+body{
+	background-image: url('../../Images/1205913.jpg');
+	background-size: cover;
+      background-repeat: no-repeat;
+      filter:blur(50px);
+}
+/*.Images{
+	margin-top: 50px;
+	width: 1000px;
+	height: 500px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: darkcyan;
+	border-top-style: dotted;
+	border-radius: 10px;
+}*/
+/*.Images
+{
+	border:5px dashed green;
+}*/
+.Naruto{
+	font-family:Tahoma, Verdana, sans-serif;
+	color: palegoldenrod;
+}

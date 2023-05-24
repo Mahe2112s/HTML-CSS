@@ -1,0 +1,28 @@
+*/*{
+	background-color: lavenderblush;
+}*/
+input[type]{
+	color: green;
+}
+/*a[target]{
+	background-color: yellow;
+}*/
+a:hover
+{
+	color: black;
+}
+a:visited{
+	color: red;
+}
+div{
+	background-color: pink;
+	height: 300px;
+	width: 300px;
+}
+div:hover{
+	background-color: yellow;
+}
+body{
+	background-image: url('1205913.jpg');
+	background-size: cover;
+}

@@ -1,0 +1,37 @@
+.main{
+			height: 800px;
+			width: 800px;
+			background-color: red;
+		}
+		.sub1{
+			height: 200px;
+			width: 800px;
+			background-color: blueviolet;
+		}
+		.sub2{
+			height: 200px;
+			width: 800px;
+			background-color:orange;
+		}
+		.sub3{
+			height: 200px;
+			width: 800px;
+			background-color:navajowhite;
+		}
+		.sub4{
+			height: 200px;
+			width: 800px;
+			background-color:linen;
+		}
+		.abc{
+			font-size: 50px;
+			color: Blue;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		div p{
+			Color:orange;
+		}
+		div:hover
+		{
+			background-color: palevioletred;
+		}
